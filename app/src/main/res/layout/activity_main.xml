@@ -12,7 +12,8 @@
         android:id="@+id/edt_timer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:text="300"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,4 +44,27 @@
 
 
     </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_pleco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Pleco"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Camera"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
 </LinearLayout>
